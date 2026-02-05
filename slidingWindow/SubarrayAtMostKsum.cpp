@@ -13,8 +13,8 @@ int main() {
     while(t--){
         int n,k;
         cin>>n>>k;
-        int a[n];
-        for(int i = 0; i < n; i++) cin >> a[i];
+        vector<int> a(n);
+        for(int &x : a) cin>>x;
         int left=0,right=0;
         int sum=0;
         int count=0;
