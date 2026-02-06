@@ -2,3 +2,4 @@ dsa-practice.code-workspace
 .vscode/*
 input.in
 output.out
+test.cpp
