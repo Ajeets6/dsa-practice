@@ -1,3 +1,5 @@
+#include <bits/stdc++.h>
+using namespace std;
 
 // just place th first occurence to the front
 int removeDuplicates(vector<int>& nums) {
@@ -9,3 +11,15 @@ int removeDuplicates(vector<int>& nums) {
         }
         return l+1;
     }
+
+#define IOS \
+  ios::sync_with_stdio(0); \
+  cin.tie(0); \
+  cout.tie(0);
+
+int main() {
+  IOS
+
+
+  return 0;
+}
